@@ -14,8 +14,14 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor.green
         
-        let p = Student()
-        print("\(p.name)---\(p.age)--\(p.no)")
+//        let p = Student()
+//        print("\(p.name)---\(p.age)--\(p.no)")
+        
+        let p = Person(dict: ["name": "Wangwu","age": 18])
+        print("\(p.name!)---\(p.age)")
+        
+        
+        
     }
 
 
